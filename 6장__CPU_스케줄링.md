@@ -64,7 +64,7 @@
 </details>
 <br><br>
 
-### 6-5 :fallen_leaf: 스케줄링 알고리즘의 	　`daelee`
+### 6-5 :fallen_leaf: 스케줄링 알고리즘의 평가 	　`daelee`
  
 문제 작성
 
