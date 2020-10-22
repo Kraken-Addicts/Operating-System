@@ -293,3 +293,46 @@ int main()
 </div>
 </details>
 <br><br>
+
+### Bonus Part : Process + CPU `kukim`
+
+kukim은 아래의 open_check.c 소스코드를 컴파일하고 실행하였다. 이때 컴퓨터 내부 작동하는지 자신이 아는 대로 작성해보시오. (C 빌드 과정, 프로세스 메모리 구조에 저장, 스케줄러 알고리즘, 컨택스트 스위칭 사용)
+
+조건
+
+- 시분할, 선점형 스케줄러, 타이머 인터럽트 존재
+- open_check.out 프로세스 실행되기 전의 CPU에는 프로세스 A가 실행중인 상태
+
+```c
+// open_check.c
+
+#include <unistd.h> // close()
+#include <stdio.h> // printf()
+#include <fcntl.h> // open()
+
+int main()
+{
+	int fd;
+	fd = open("data.txt", O_RDONLY);
+	if (fd == -1)
+	{
+		printf("Error: can not open file\n");
+		return 1;
+	}
+	else
+	{
+		printf("File opened & not close \n");
+		close(fd);
+		return 0;
+	}
+}
+```
+
+<details>
+<summary> <b> :page_facing_up: 답지 </b>  </summary>
+<div markdown="1">
+
+kukim의 문제풀이 : https://bit.ly/process_cpu
+</div>
+</details>
+<br><br>
