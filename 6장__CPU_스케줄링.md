@@ -238,6 +238,7 @@ int main()
 ##### [문제2] 최단작업 우선(SJF) 스케줄링에도 대표적인 단점이 있는데요
 - 2-1. 이 현상을 무엇이라고 할까요? `ㅇㅇ 현상`
 - 2-2. 이 현상에 대해서 간단하게 설명해주세요.
+- 2-3. 세초공주를 구하라 게임에 접속해주세요 [링크](https://docs.google.com/spreadsheets/d/17WcsbfrBQf_v8hu9MJi9P_bcpfzDZ8GZqgrakuN7woE/edit?usp=sharing)
 
 ##### [문제3] 우선순위 스케줄링에서는 SJF의 문제를 해결할 수 있는 기법을 사용하는데요
 - 3-1. 이 기법을 무엇이라고 할까요? `ㅇㅇ 기법`
