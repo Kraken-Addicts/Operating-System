@@ -294,9 +294,9 @@ int main()
 </details>
 <br><br>
 
-### Bonus Part : Process + CPU `kukim`
+### Bonus Part : Process + CPU 정리 `kukim`
 
-kukim은 아래의 open_check.c 소스코드를 컴파일하고 실행하였다. 이때 컴퓨터 내부 작동하는지 자신이 아는 대로 작성해보시오. (C 빌드 과정, 프로세스 메모리 구조에 저장, 스케줄러 알고리즘, 컨택스트 스위칭 사용)
+kukim은 아래의 open_check.c 소스코드를 컴파일하고 실행하였다. 이때 컴퓨터 내부 작동하는지 자신이 아는 대로 작성해보시오. (C 빌드 과정, 프로세스 메모리 구조에 저장, 스케줄러 알고리즘, 타이머 인터럽트, DMA, 컨택스트 스위칭 활용)
 
 조건
 
